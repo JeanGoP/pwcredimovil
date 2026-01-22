@@ -1,0 +1,33 @@
+.contenido__MarcasPublicitarias{
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.imagen__MarcasPublicitarias {
+  max-width: 80%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+ }
+  
+.imagen__MarcasPublicitarias:hover {
+    filter: brightness(70%);
+  }
+
+  @media (max-width: 768px) {
+    .imagen__MarcasPublicitarias {
+      width: 40%;
+      height: 25px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .imagen__MarcasPublicitarias {
+      width: 35%;
+      height: 25px;
+    }
+  }

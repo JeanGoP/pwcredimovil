@@ -1,0 +1,303 @@
+.row__CatalogoMoto {
+  padding: 20px;
+  /* background-color: black; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.Titlulo__CatalogoMoto {
+  /* color: white; */
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Bebas Neue", Sans-serif;
+}
+
+.filtros__CatalogoMoto {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+.filtros__form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filtros__form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.btn__mostrarMas{
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  border-radius: 30px;
+  width: 300px;
+  background-color: #0e60ad;
+  color: white;
+  border-color: #0e60ad;
+  margin-bottom: 50px;
+}
+.btn__quitarfiltro{
+  background-color: #0e60ad;
+  color: white;
+  border-color: #0e60ad;
+  font-weight: bold;
+  position: relative;
+  right: 10px;
+}
+.btn__quitarfiltro:hover{
+  background-color: #05294c;
+  color: white;
+  border-color: #05294c;
+  font-weight: bold;
+}
+.motoObjeto-precio {
+  background: #0e60ad;
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.motoObjeto-precio h3 {
+  font-size:   clamp(0.5rem, 5vw, 1.8rem);
+  font-weight: bold;
+  margin: 0;
+}
+
+.motoObjeto-precio p {
+  font-size: 15px;
+  margin: 5px 0 0;
+  opacity: 90%;
+}
+
+.spanModalMoto_nombre{
+  font-family: "Bebas Neue", Sans-serif;
+  font-size:   clamp(1.1rem, 6vw, 2.5rem);
+
+  font-weight: 100;
+  color: #0e60ad;
+}
+
+.spanModalMoto_referencia{
+  font-size: 22px;
+  font-weight: bold;
+  color: #515152;
+}
+ .btn-rojo--contac {
+  background: white;
+  border: 2px solid #0e60ad;
+  color: #0e60ad;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  height: 50px;
+} 
+.btn-rojo--contac:hover{
+  background:#0e60ad;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* .motoObjeto-colores h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.motoObjeto-colores{
+  padding-top: 18px;
+}
+.colores-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 12px;
+} */
+
+.contenidoModalMoto{
+width: 70%;
+}
+@media (max-width: 710px) {
+  /* .colores-grid {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  .contenidoModalMoto{
+    width: 100%;
+    }
+}
+/* 
+@media (max-width: 500px) {
+  .colores-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+.color-btn {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  gap: 1px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.color-btn:hover {
+  border-color: #aaa;
+}
+
+.color-btn.activo {
+  border-color:#0e60ad;
+  background: #fde7e7;
+}
+
+.color-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  flex-shrink: 0;
+}
+
+.color-nombre {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.color-extra {
+  font-size: 12px;
+  color: #0e60ad;
+  font-weight: bold;
+}
+
+.nombre--color{
+  display: flex;
+  justify-content: baseline;
+} */
+
+.motoObjeto-colores {
+  padding-top: 0px;
+  position: relative;
+}
+
+.colores-carousel {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 5px;
+}
+
+/* Ocultar scrollbar */
+.colores-carousel::-webkit-scrollbar {
+  display: none;
+}
+.colores-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.color-btn {
+  min-width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.color-btn:hover {
+  border-color: #aaa;
+}
+
+.color-btn.activo {
+  border-color: #0e60ad;
+  box-shadow: 0 0 0 2px rgba(14, 96, 173, 0.2);
+}
+
+.color-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+/* Botones del carrusel */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: 1px solid #ddd;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.carousel-btn.left {
+  left: -40px;
+}
+
+.carousel-btn.right {
+  right: -40px;
+}
+
+.carousel-btn.leftf {
+  left: -10px;
+}
+
+.carousel-btn.rightf {
+  right: -10px;
+}
+
+.ficha-carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+/* ocultar scrollbar */
+.ficha-carousel::-webkit-scrollbar {
+  display: none;
+}
+.ficha-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.ficha-item {
+  min-width: 180px; /* ancho fijo por card */
+  flex-shrink: 0;
+}
+.ficha-carousel {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}

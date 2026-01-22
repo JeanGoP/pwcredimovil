@@ -1,0 +1,15 @@
+.tratamientoDatos__parrafo{
+    /* color: white; */
+}
+.div__row__TratamientoDato{
+    /* border: solid 1px white; */
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    max-height: 600px;
+}
+.label__row__TratamientoDato{
+    /* color: white; */
+    font-size: xx-large;
+    font-weight: bold;
+}

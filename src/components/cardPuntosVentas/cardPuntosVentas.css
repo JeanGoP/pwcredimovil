@@ -1,0 +1,29 @@
+.div__CardPuntosVentas{
+    border-radius: 12px;
+    border: 1px solid #c1bfbf;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    /* background-color: #fff; */
+    padding: 20px;
+    margin: 10px;
+  
+}
+.btn__CardPuntosVentas{
+    height: 35px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#0e60ad;
+    border: 1px solid white;
+}
+.btn__CardPuntosVentas:hover{
+    background-color: #150c41;
+    border: 1px solid white;
+}
+.titulo__CardPuntosVentas{
+    font-weight: bold;
+    font-size: clamp(0.6rem, 5vw, 1.5rem);
+}
+.row__btn__CardPuntosVentas{
+    padding-left: 11px;
+
+}

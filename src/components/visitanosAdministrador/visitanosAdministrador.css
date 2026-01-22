@@ -1,0 +1,17 @@
+.btn__add__visitanos__administrador{
+    height: 30px;
+    width: 30px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__contenido__btn__add__administrador{
+    margin-top: 35px;
+}
+
+.delete__table__rutas{
+    color: red;
+    cursor: pointer;
+}

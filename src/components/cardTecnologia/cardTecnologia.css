@@ -1,0 +1,19 @@
+.texto__card__Tecnologia{
+    /* text-align: justify; */
+    text-align: center;
+
+}
+.titulo__card__Tecnologia{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 28px;
+}
+.card__Tecnologia{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.card__Tecnologia{
+    /* background: black; */
+    color: white;
+}

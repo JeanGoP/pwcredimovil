@@ -1,0 +1,36 @@
+.contenido__Footer{
+    /* background-color:black; */
+    color: white;
+    padding: 3rem 1rem;
+    /* margin-top: 50px; */
+    /* border-top: 1px solid rgb(255, 255, 255); */
+    font-size: 18px;
+}
+
+.logo__Footer{
+    width: 170px;
+    
+}
+.icono__right__footer{
+    color:#F9BF28;
+}
+.contenido__logo__footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.clickable {
+    cursor: pointer;
+    
+  }
+
+.icono_footer{
+    color: white;
+}
+
+.TitulosFooter{
+    font-weight: 100;
+    font-size: 25px;
+    font-family: "Bebas Neue", Sans-serif;
+}

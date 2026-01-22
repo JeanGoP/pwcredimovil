@@ -1,0 +1,44 @@
+.row__Cotizador__{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.container__row__Cotizador{
+    /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/HomePulsar.PNG'); */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+.label__row__Cotizador{
+    display: block;
+    font-size: clamp(20px, 7vw, 60px);
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bebas Neue", Sans-serif;
+}
+.row__iframe__Cotizador{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    
+}
+.row__iframe__Cotizador iframe{
+    width: 80%;              
+    height: 1000px;           
+    border: none;          
+    border-radius: 8px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+html, body {
+    overflow-x: hidden;
+  }

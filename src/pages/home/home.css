@@ -1,0 +1,314 @@
+/* ============================
+   CONTENEDOR PRINCIPAL
+============================ */
+.contenedor__imagen__HomePulsar {
+  position: relative;
+  width: 100%;
+  height: 83vh;
+  min-height: 300px;
+/* 
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url("https://credimovil.co/wp-content/uploads/2024/08/Diseno-sin-titulo-7.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* ✅ Acomodo profesional desde abajo hacia arriba */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;   /* Todo al fondo del contenedor */
+  align-items: flex-start;     /* Alineado a la izquierda */
+  padding: 40px 0 60px 100px;  /* TOP | RIGHT | BOTTOM | LEFT */
+  gap: 20px;                   /* Separación entre texto, imágenes y botón */
+}
+
+
+/* ============================
+   TEXTO
+============================ */
+.contenedor__texto__HomePulsar p {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1.1;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', Sans-serif;
+  font-style: italic;
+}
+
+
+/* ============================
+   IMÁGENES
+============================ */
+.contenedor__images__HomePulsar {
+  display: flex;
+  gap: 20px;
+}
+
+.contenedor__images__HomePulsar img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* ============================
+   BOTÓN
+============================ */
+.btn__imagen__HomePulsar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn__HomePulsar {
+  height: 60px;
+  width: 150px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  background-color: #3354a4;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border-radius: 6px;
+}
+
+.btn__HomePulsar:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+  background-color: #d63201d4;
+}
+
+
+/* ============================
+   TABLETS
+============================ */
+@media (max-width: 768px) {
+  .contenedor__imagen__HomePulsar {
+    height: 60vh;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+
+  .contenedor__texto__HomePulsar p {
+    font-size: 2rem;
+  }
+
+  .contenedor__images__HomePulsar img {
+    width: 130px;
+  }
+
+  .btn__HomePulsar {
+    width: 140px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+}
+
+
+/* ============================
+   MÓVILES
+============================ */
+@media (max-width: 480px) {
+  .contenedor__imagen__HomePulsar {
+    height: 50vh;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .contenedor__texto__HomePulsar p {
+    font-size: 1.4rem;
+  }
+
+  .contenedor__images__HomePulsar img {
+    width: 90px;
+  }
+
+  .btn__HomePulsar {
+    width: 120px;
+    height: 45px;
+    font-size: 1rem;
+  }
+}
+
+.tecnologia__home {
+  /* color: white; */
+
+  font-size: 40px;
+  font-family: 'Bebas Neue', Sans-serif;
+}
+.NuestraMarca__Titulo__Home {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.pioneros__home {
+  /* color: white; */
+  font-size: 25px;
+  font-family: 'Roboto', Sans-serif;
+}
+.EspecificacionesTecnicas__Titulo__Home {
+  /* color: white; */
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', Sans-serif;
+}
+
+.contenido__NuestrasMarcas__Home {
+  /* background-color:blue; */
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 15px; /* Igual que el padding de Bootstrap */
+  padding-right: 15px;
+  overflow-x: hidden; /* opcional para asegurar que no se muestre scroll */
+}
+.TituloNuestraMarca {
+  font-size: clamp(1rem, 5vw, 2.5rem);
+  color: white;
+  font-weight: bold;
+  font-family: 'Bebas Neue', Sans-serif;
+  padding-top: 15px;
+}
+.div__carousel__Home {
+  margin-top: 25px;
+}
+.NuestraAliado__Titulo__Home {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', Sans-serif;
+}
+/*
+body {
+  background-color: #f0f0f0;
+}
+.aliados-title {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 30px 0;
+}
+.carousel-item img {
+  max-height: 150px;
+  object-fit: contain;
+  margin: auto;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+} */
+.carrusel__aliados {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.carrusel__aliados__img {
+  max-height: 150px;
+  object-fit: contain;
+  margin: auto;
+}
+/* Mover los botones hacia afuera */
+/* ======== CONTROLES PERSONALIZADOS CON SVG ======== */
+
+#carruselAliados .carousel-control-prev,
+#carruselAliados .carousel-control-next {
+  width: 55px;
+  opacity: 1;
+  filter: none;
+}
+
+/* Mover fuera en desktop */
+#carruselAliados .carousel-control-prev { left: -70px; }
+#carruselAliados .carousel-control-next { right: -70px; }
+
+/* ICONOS SVG MODERNOS */
+#carruselAliados .carousel-control-prev-icon,
+#carruselAliados .carousel-control-next-icon {
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+
+}
+
+/* SVG flecha izquierda */
+#carruselAliados .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='black' stroke-width='5' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M15 4 L7 12 L15 20'/></svg>");
+}
+
+/* SVG flecha derecha */
+#carruselAliados .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='black' stroke-width='5' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M9 4 L17 12 L9 20'/></svg>");
+}
+
+/* ======== RESPONSIVE ======== */
+
+.contenidoCatalogoMoto{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media (min-width: 1000px) {
+  .contenidoCatalogoMoto{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+/* Tablets */
+@media (max-width: 992px) {
+  #carruselAliados .carousel-control-prev { left: -40px; }
+  #carruselAliados .carousel-control-next { right: -40px; }
+}
+
+/* Móviles medianos */
+@media (max-width: 768px) {
+  #carruselAliados .carousel-control-prev { left: -10px; }
+  #carruselAliados .carousel-control-next { right: -10px; }
+
+  #carruselAliados .carousel-control-prev-icon,
+  #carruselAliados .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 24px 24px;
+  }
+  .contenidoCatalogoMoto{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  #carruselAliados .carousel-control-prev { left: 5px; }
+  #carruselAliados .carousel-control-next { right: 5px; }
+
+  #carruselAliados .carousel-control-prev-icon,
+  #carruselAliados .carousel-control-next-icon {
+    width: 26px;
+    height: 26px;
+    border-width: 2px;
+    background-size: 20px 20px;
+  }
+}
+
+
+.conten--video--youtube{
+  padding: 50px;
+
+}
+
+@media (max-width: 700px) {
+  .conten--video--youtube{
+    padding: 10px;
+  
+  }
+  .row--video--youtube--{
+    position: relative;
+    left: 12px;
+  } 
+}

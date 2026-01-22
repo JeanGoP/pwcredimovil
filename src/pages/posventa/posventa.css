@@ -1,0 +1,85 @@
+.row__Posventa__{
+    margin-top: 56px;
+}
+.contenido__posventa{
+    padding-top: 56px;
+    padding-bottom: 50px;
+}
+.container__row__Posventa{
+     /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/HomePulsar.PNG'); */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    max-height: 250px; 
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+.label__row__Posventa{
+    display: block;
+    font-size: clamp(28px, 9vw, 60px);
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bebas Neue", Sans-serif;
+}
+
+.titulo__Posventa{
+    /* color: white; */
+    font-size: 35px !important;
+    font-weight: bold;
+    font-family: "Bebas Neue", Sans-serif;
+    text-align: center;
+}
+.descripcion__Posventa{
+    font-size: 20px;
+    /* color: #afb0b3; */
+    text-align: justify;
+}
+.titulo__card__Posventa{
+    color: rgb(0, 0, 0);
+    font-size: 35px !important;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Bebas Neue", Sans-serif;
+}
+
+.contenido__card__Posventa{
+    padding: 20px;
+}
+.input__card__Posventa{
+    height: 40px;
+    font-size: medium;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.card__Posventa{
+    border-radius: 15px;
+    background-color: #c7c2c5;
+}
+.subtitulo__card__Posventa{
+    text-align: center;
+    font-size: large;
+}
+.btn__card__Posventa{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    background-color: #D63201;
+    border: none;
+}
+.btn__card__Posventa:hover{
+    background-color: #d0694a;
+}
+.contenido__btn__card__Posventa{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}

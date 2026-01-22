@@ -1,0 +1,14 @@
+.admi__contenedor{
+    background-color: white;
+    padding-bottom: 50px;
+}
+.tabs__admin{
+    background-color: white;
+}
+
+.titulo__admin{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
