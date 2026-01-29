@@ -96,6 +96,9 @@ const url_logo = '/images/logoCredimovil.png'
                     <div className="row">
                       <p className="clickable"  onClick={()=>handlePagina('/tratamientoDatos')}><FaAngleRight className="icono__right__footer" /> Tratamiento de datos</p>
                     </div>
+                    <div className="row">
+                      <a className="clickable" href="https://lineaetica.onrender.com/?empresa=Credimovil" target="_blank" style={{textDecoration:'none', color:'white'}} ><FaAngleRight className="icono__right__footer" /> Línea Ética</a>
+                    </div>
                 </div>
            </div>
            <div className="row" style={{alignItems:'center', textAlign:'center'}}> 

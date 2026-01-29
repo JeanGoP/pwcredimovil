@@ -93,7 +93,7 @@ export function Home() {
     <div style={{ background: "#eeeeee"}}>
       <div className="contenedor__imagen__HomePulsar"
           style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('${configuracionData?.rutaImgPortada}')`
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('${configuracionData?.rutaPortadaHome}')`
                  }}
       >
         <div className='contenedor__texto__HomePulsar'>
